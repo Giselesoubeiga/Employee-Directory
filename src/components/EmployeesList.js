@@ -32,6 +32,7 @@ class EmployeesList extends React.Component {
             <tr>
               <th scope="col">image</th>
               <th scope="col">name</th>
+              <th scope="col">phone</th>
               <th scope="col">email</th>
               <th scope="col">DOB</th>
             </tr>
@@ -51,6 +52,7 @@ class EmployeesList extends React.Component {
                     " " +
                     user.name.last}{" "}
                 </td>
+                <td>{user.phone}</td>
 
                 <td>{user.email}</td>
 
