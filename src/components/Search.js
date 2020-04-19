@@ -1,14 +1,21 @@
+/* eslint-disable no-useless-constructor */
 import React from "react"
 
 
 class Search extends React.Component{
-    handleChange(e){
-        console.log(e.target.value)
+
+    constructor(props){
+        
+        super(props);
+        
     }
+
+
+   
     render(){
         return (
             <div className="p-5">
-        <input type="text" onChange={this.handleChange} className="form-control" id="inputSearch" placeholder="Search"/>
+        <input type="text" onChange={this.props.searchHandleInput} className="form-control" id="inputSearch" placeholder="Search"/>
             </div>
         )
     }

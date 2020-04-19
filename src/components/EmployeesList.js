@@ -2,29 +2,19 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import axios from "axios";
+
 
 class EmployeesList extends React.Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
     this.state = {
-      employees: [],
+      
     };
   }
 
-  componentDidMount() {
-    axios
-      .get("https://randomuser.me/api/?results=200&nat=us")
-      .then((response) => {
-        console.log(response.data.results);
-        this.setState({
-          employees: response.data.results,
-        });
-      });
-  }
-
   render() {
+
     return (
       <div>
         <table className="table">
@@ -39,8 +29,8 @@ class EmployeesList extends React.Component {
           </thead>
 
           <tbody>
-            {this.state.employees.map((user) => (
-              <tr>
+            {this.props.employeesList.map((user) => (
+              <tr key={user.email}>
                 <th scope="row">
                   <img src={user.picture.medium} />{" "}
                 </th>
