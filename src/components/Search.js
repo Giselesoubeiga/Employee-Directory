@@ -10,11 +10,9 @@ class Search extends React.Component{
         
     }
 
-
-   
     render(){
         return (
-            <div className="p-5">
+            <div className="p-2">
         <input type="text" onChange={this.props.searchHandleInput} className="form-control" id="inputSearch" placeholder="Search"/>
             </div>
         )
