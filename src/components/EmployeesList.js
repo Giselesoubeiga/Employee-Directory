@@ -9,8 +9,10 @@ class EmployeesList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+
       
     };
+    
   }
 
   render() {
@@ -19,7 +21,7 @@ class EmployeesList extends React.Component {
       <div>
         <table className="table">
           <thead className="thead-light">
-            <tr>
+            <tr  onClick ={this.props.orderByName}>
               <th scope="col">image</th>
               <th scope="col">name</th>
               <th scope="col">phone</th>

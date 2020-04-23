@@ -8,6 +8,7 @@ class Main extends React.Component{
         
         super(props);
         this.state={
+            order:"",
             employees:[],
             filtredEmployees:[],
             inputContent:"",
@@ -44,11 +45,23 @@ class Main extends React.Component{
 
       }
 
+      orderByName =()=>{
+        if (this.state.order ==="asc"){
+          let orderEmployee= this.state.filtredEmployees
+         let elements = orderEmployee.sort((a,b)=> a.name.first>b.name.first?-1:1)
+          this.setState({filtredEmployees:elements,order:"desc"})
+        }else {
+          let orderEmployee= this.state.filtredEmployees
+        let elements = orderEmployee.sort((a,b)=> a.name.first>b.name.first? 1:-1)
+        this.setState({filtredEmployees:elements,order:"asc"})
+        }
+      }
+
     render(){
         return(
             <div className="p-5">
                 <Search searchHandleInput={this.searchHandleInput}/>
-                <Employee employeesList={this.state.filtredEmployees}/>
+                <Employee employeesList={this.state.filtredEmployees} orderByName={this.orderByName}/>
 
             </div>
         )
