@@ -18,15 +18,15 @@ class EmployeesList extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className="container">
         <table className="table">
-          <thead className="thead-light">
+          <thead className="thead-dark">
             <tr  onClick ={this.props.orderByName}>
-              <th scope="col">image</th>
-              <th scope="col">name</th>
-              <th scope="col">phone</th>
-              <th scope="col">email</th>
-              <th scope="col">DOB</th>
+              <th scope="col">Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Email</th>
+              <th scope="col">Age</th>
             </tr>
           </thead>
 
@@ -48,7 +48,7 @@ class EmployeesList extends React.Component {
 
                 <td>{user.email}</td>
 
-                <td>{user.dob.date} </td>
+                <td>{user.dob.age} </td>
               </tr>
             ))}
           </tbody>

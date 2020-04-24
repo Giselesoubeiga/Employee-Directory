@@ -12,7 +12,7 @@ class Search extends React.Component{
 
     render(){
         return (
-            <div className="p-2">
+            <div className="container md-form active-cyan active-cyan-2 mb-3 ">
         <input type="text" onChange={this.props.searchHandleInput} className="form-control" id="inputSearch" placeholder="Search"/>
             </div>
         )
