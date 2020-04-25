@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Giselesoubeiga/Employee-Directory/static/css/main.f59d7250.chunk.css",
+    "main.js": "/Giselesoubeiga/Employee-Directory/static/js/main.82de9958.chunk.js",
+    "main.js.map": "/Giselesoubeiga/Employee-Directory/static/js/main.82de9958.chunk.js.map",
+    "runtime-main.js": "/Giselesoubeiga/Employee-Directory/static/js/runtime-main.da806587.js",
+    "runtime-main.js.map": "/Giselesoubeiga/Employee-Directory/static/js/runtime-main.da806587.js.map",
+    "static/css/2.de424728.chunk.css": "/Giselesoubeiga/Employee-Directory/static/css/2.de424728.chunk.css",
+    "static/js/2.28806b12.chunk.js": "/Giselesoubeiga/Employee-Directory/static/js/2.28806b12.chunk.js",
+    "static/js/2.28806b12.chunk.js.map": "/Giselesoubeiga/Employee-Directory/static/js/2.28806b12.chunk.js.map",
+    "index.html": "/Giselesoubeiga/Employee-Directory/index.html",
+    "precache-manifest.1f73e40cb92b850ab4724cdab94f6972.js": "/Giselesoubeiga/Employee-Directory/precache-manifest.1f73e40cb92b850ab4724cdab94f6972.js",
+    "service-worker.js": "/Giselesoubeiga/Employee-Directory/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/Giselesoubeiga/Employee-Directory/static/css/2.de424728.chunk.css.map",
+    "static/css/main.f59d7250.chunk.css.map": "/Giselesoubeiga/Employee-Directory/static/css/main.f59d7250.chunk.css.map",
+    "static/js/2.28806b12.chunk.js.LICENSE.txt": "/Giselesoubeiga/Employee-Directory/static/js/2.28806b12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da806587.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.28806b12.chunk.js",
+    "static/css/main.f59d7250.chunk.css",
+    "static/js/main.82de9958.chunk.js"
+  ]
+}
