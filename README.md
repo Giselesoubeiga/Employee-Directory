@@ -12,5 +12,5 @@ An employee or manager would benefit greatly from being able to view non-sensiti
  React.js - JavaScript - CSS - HTML - Bootstrap
 
  ## Screenshot
- ![Image description](public/capture.PNG)
+ ![GitHub Logo](public/capture.PNG)
  
